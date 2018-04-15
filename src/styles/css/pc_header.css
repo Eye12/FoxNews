@@ -1,0 +1,83 @@
+#pc-header {
+  width: 100%;
+}
+
+#pc-header, #header-logo {
+  height: auto;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+#header-logo {
+  width: 22%;
+  margin-top: 3px;
+}
+#site-titel {
+  font-size: 1.15rem;
+  line-height: 50px;
+  font-style: italic;
+}
+#register-login {
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  float: right;
+  font-size: 1rem;
+}
+#register-login:hover {
+  color: #ff1c1c;
+  cursor: pointer;
+}
+.logout,
+.login {
+  position: relative;
+  top: 2px;
+}
+.logout {
+  margin-left: 8px;
+}
+.login {
+  position: relative;
+  left: -8px;
+}
+.log-text {
+  color: #b4b4b4;
+  font-size: 0.9rem;
+}
+#pc-header .ant-menu-item:hover > .anticon {
+  color: red;
+}
+#pc-header a:hover {
+  color: red;
+}
+
+.ant-menu-horizontal {
+  line-height: 45px;
+}
+
+.ant-menu-item {
+  padding: 0 25.5px;
+}
+
+.ant-menu-item .anticon {
+  margin-right: 6px;
+}
+
+.ant-menu-horizontal > .ant-menu-item {
+  font-size: .95rem;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover,
+.ant-menu-horizontal > .ant-menu-item-selected {
+  border-bottom: 1.5px solid #ff1c1c;
+  color: #ff1c1c !important;
+}

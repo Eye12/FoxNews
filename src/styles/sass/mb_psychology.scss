@@ -1,0 +1,22 @@
+@import 'public_variables', 'public_placeholder',
+'compass/typography/lists/bullets';
+
+.mb-psychology {
+	@extend %width-height-a;
+	img,
+	.list {
+		@extend %width-height-a;
+	}
+
+	.list {
+		@include no-bullets;
+		margin: 0;
+		padding: 0;
+		padding-left: 8px;
+		line-height: 28px;
+		font-size: .9rem;
+		li>a {
+			color: #282828;
+		}
+	}
+}

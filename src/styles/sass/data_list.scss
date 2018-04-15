@@ -1,0 +1,34 @@
+@import 'compass/css3/box-sizing',
+'compass/css3/flexbox',
+'public_placeholder',
+'public_variables';
+
+.data-list-group {
+    @extend %width;
+    height: auto;
+    @include display-flex;
+    @include justify-content(space-between);
+    @include align-items(flex-start);
+    margin-bottom: 5px;
+    position: relative;
+    .left-img {
+        width: 25%;
+        @extend %height-a;
+        img {
+            @extend %width-height-a;
+        }
+    }
+    .details {
+        width: 75%;
+        @include box-sizing(border-box);
+        padding: 6px 10px;
+        .span-group {
+        	position: absolute;
+        	bottom: -8px;
+            color: #656565;
+        	.author {
+        		margin-right: 10px;
+        	}
+        }
+    }
+}

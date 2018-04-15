@@ -1,0 +1,21 @@
+%width {
+	width: 100%;
+}
+
+%height {
+	height: 100%;
+}
+%height-a {
+	height: auto;
+}
+
+%width-height {
+	@extend %width;
+	@extend %height;
+}
+
+%width-height-a {
+	@extend %width;
+	@extend %height-a;
+}
+

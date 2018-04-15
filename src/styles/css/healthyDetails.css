@@ -1,0 +1,27 @@
+.healthy-details, .healthy-details .content img {
+  width: 100%;
+}
+
+.healthy-details, .healthy-details .content img {
+  height: auto;
+}
+
+.healthy-details .content {
+  margin-top: 10px;
+}
+.healthy-details .content .title,
+.healthy-details .content .sub-title {
+  text-align: center;
+}
+.healthy-details .content .sub-title {
+  font-size: .9rem;
+}
+.healthy-details .content img {
+  padding: 10px 0;
+}
+.healthy-details .content .p-content {
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1.1rem;
+  line-height: 30px;
+}

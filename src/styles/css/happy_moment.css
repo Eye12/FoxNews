@@ -1,0 +1,23 @@
+.card-item {
+  width: 100%;
+}
+
+.card-item {
+  height: auto;
+}
+
+.card-item {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.card-item .title {
+  line-height: 40px;
+  text-indent: 30px;
+}
+.card-item .content {
+  text-align: justify;
+}

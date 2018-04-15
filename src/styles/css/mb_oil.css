@@ -1,0 +1,61 @@
+.mb-oil, .mb-oil .ipt, .mb-oil .city-oil .title {
+  width: 100%;
+}
+
+.mb-oil, .mb-oil .ipt, .mb-oil .city-oil .title {
+  height: auto;
+}
+
+.mb-oil {
+  padding-top: 8px;
+}
+.mb-oil .ipt {
+  text-align: center;
+}
+.mb-oil .ipt .ant-btn-primary,
+.mb-oil .ipt .ant-btn-primary:hover {
+  background-color: #ff1c1c;
+  border-color: #ff1c1c;
+}
+.mb-oil .ipt .ant-input:focus {
+  -moz-box-shadow: 0 0 8px rgba(255, 40, 96, 0.2);
+  -webkit-box-shadow: 0 0 8px rgba(255, 40, 96, 0.2);
+  box-shadow: 0 0 8px rgba(255, 40, 96, 0.2);
+}
+.mb-oil .ipt .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+  border-color: #ff1c1c;
+}
+.mb-oil .ant-input-affix-wrapper {
+  width: 70% !important;
+}
+.mb-oil .city-oil {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin: auto;
+  margin-top: 8px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.mb-oil .city-oil .title {
+  text-align: center;
+  line-height: 36px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.mb-oil .city-oil .oil-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mb-oil .city-oil .oil-list li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+.mb-oil .city-oil .oil-list li {
+  line-height: 24px;
+  padding-left: 40%;
+}
+.mb-oil .hidden {
+  display: none;
+}

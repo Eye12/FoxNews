@@ -1,0 +1,25 @@
+@import 'public_placeholder';
+.healthy-details {
+	@extend %width-height-a;
+	.content {
+		margin-top: 10px;
+		.title,
+		.sub-title {
+			text-align: center;
+		}
+		.sub-title {
+			font-size: .9rem;
+		}
+		img {
+			@extend %width-height-a;
+			padding: 10px 0;
+		}
+		.p-content {
+			text-align: justify;
+			text-indent: 30px;
+			font-size: 1.1rem;
+			line-height: 30px;
+		}
+	}
+}
+

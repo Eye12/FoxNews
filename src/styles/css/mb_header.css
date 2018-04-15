@@ -1,0 +1,35 @@
+#mb-header {
+  width: 100%;
+}
+
+#mb-header, #mb-header #left img {
+  height: auto;
+}
+
+#mb-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 40px;
+}
+#mb-header #left img {
+  width: 15%;
+}
+#mb-header #left #text {
+  font-size: 1.15rem;
+  font-style: italic;
+}
+#mb-header #right .icn-out,
+#mb-header #right .icn-in {
+  position: relative;
+  top: 2px;
+}
+#mb-header #right .icn-in {
+  right: 8px;
+}
+#mb-header #right #logout-txt {
+  margin-right: 8px;
+}

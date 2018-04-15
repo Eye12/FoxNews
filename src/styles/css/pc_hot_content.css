@@ -1,0 +1,48 @@
+.pc-hot-content .carousel-img, .pc-hot-content .ant-carousel .slick-slide, .pc-hot-content .ant-carousel .slick-slide img {
+  width: 100%;
+}
+
+.pc-hot-content .carousel-img {
+  height: auto;
+}
+
+.pc-hot-content {
+  margin-top: 10px;
+}
+.pc-hot-content .ant-carousel .slick-slide {
+  text-align: center;
+  height: 260px;
+  line-height: 260px;
+  background: #364d79;
+  overflow: hidden;
+}
+.pc-hot-content .news-list {
+  width: 98%;
+  float: right;
+}
+.pc-hot-content .news-list::after {
+  *zoom: 1;
+}
+.pc-hot-content .news-list::after:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.pc-hot-content .imgs-block {
+  margin-top: 10px;
+}
+
+.clear {
+  *zoom: 1;
+}
+.clear:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}

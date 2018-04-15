@@ -1,0 +1,108 @@
+.modal-container {
+  width: 100%;
+}
+
+.modal-container {
+  height: 100%;
+}
+
+.modal-container .modal-content {
+  height: auto;
+}
+
+.modal-container {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  z-index: 101;
+}
+.modal-container .modal-content {
+  position: relative;
+}
+.modal-container .modal-content .anticon-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.modal-container .modal-content .anticon-close:hover {
+  color: #000;
+}
+@media only screen and (min-device-width: 1024px) {
+  .modal-container .modal-content {
+    width: 32%;
+    background: #fff;
+    padding: 0 10px;
+  }
+}
+@media only screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+  .modal-container .modal-content {
+    width: 45%;
+    background: #fff;
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  .modal-container .modal-content {
+    width: 92%;
+    background: #fff;
+    padding: 0 10px;
+  }
+}
+
+.modal-hidden {
+  display: none;
+}
+
+.modal-container .login {
+  margin-right: 0;
+  left: 0;
+}
+.modal-container .ant-form-item {
+  text-align: center;
+}
+.modal-container .ant-form-item-control {
+  line-height: 0;
+}
+.modal-container .anticon-user,
+.modal-container .anticon-lock,
+.modal-container .anticon {
+  color: rgba(0, 0, 0, 0.25);
+}
+.modal-container .ant-input-affix-wrapper .ant-input:not(:first-child),
+.modal-container .ant-input-group > .ant-input:last-child {
+  font-size: 13px;
+}
+
+.regiterForm .ant-form-item {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.regiterForm .ant-form-item-label {
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+.regiterForm .ant-form-item-control-wrapper {
+  width: 54%;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+.regiterForm .ant-form-item-children {
+  width: 100%;
+}

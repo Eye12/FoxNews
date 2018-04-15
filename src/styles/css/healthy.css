@@ -1,0 +1,86 @@
+.healthy .content .item-info {
+  width: 100%;
+}
+
+.healthy .content .item-info, .healthy .content .left,
+.healthy .content .right {
+  height: auto;
+}
+
+.healthy .content {
+  margin-top: 10px;
+}
+.healthy .content .ant-carousel .slick-slide {
+  text-align: center;
+  height: 380px;
+  line-height: 380px;
+  background: #364d79;
+  overflow: hidden;
+}
+.healthy .content .group .imgs {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.healthy .content .header {
+  line-height: 46px;
+  color: #ff1c1c;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.healthy .content .left,
+.healthy .content .right {
+  width: 99.5%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 8px;
+  padding: 0 8px;
+}
+.healthy .content .right {
+  float: right;
+}
+.healthy .content .right .right-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.healthy .content .right .right-list li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+.healthy .content .right .right-list a {
+  color: #656565;
+}
+.healthy .content .right .right-list li {
+  font-size: .9rem;
+  line-height: 28px;
+  letter-spacing: 1.2px;
+}
+.healthy .content .item-info {
+  margin-top: 8px;
+  padding: 0 8px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.healthy .content .item-info p {
+  font-size: .9rem;
+  text-indent: 20px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.clear {
+  *zoom: 1;
+}
+.clear:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}

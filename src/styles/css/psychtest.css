@@ -1,0 +1,11 @@
+.psychtest, .psychtest .part-one .title {
+  width: 100%;
+}
+
+.psychtest, .psychtest .part-one .title {
+  height: auto;
+}
+
+.psychtest .part-one .title {
+  line-height: 38px;
+}

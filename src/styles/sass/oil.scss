@@ -1,0 +1,54 @@
+@import 'public_placeholder', 'public_variables', 
+'compass/css3/box-shadow', 'compass/css3/border-radius';
+
+.page-oil {
+	@extend %width-height-a;
+	.search-container {
+		text-align: center;
+		margin-top: 15px;
+	}
+	.search-container>.ant-input-affix-wrapper {
+		width: 50%;
+	}
+	.search-container .ant-btn-primary {
+		background: $focus-color;
+		border-color: $focus-color;
+	}
+	.search-container .ant-input:focus {
+		border-color: $focus-color;
+		@include box-shadow(0 0 5px #ff2121);
+	}
+	.search-container .ant-input:hover {
+		border-color: $focus-color;
+		@include box-shadow(0 0 5px #ff2121);
+	}
+	.search-container .ant-input-affix-wrapper:hover .search-container .ant-input:not(.ant-input-disabled) {
+		border-color: $focus-color;
+	}
+	.hidden {
+		display: none;
+	}
+	.info-card {
+		width: 50%;
+		border: 1px solid rgba(0,0,0,.1);
+		margin: auto;
+		margin-top: 15px;
+		@include border-radius(4px);
+		overflow: hidden;
+		.city-title {
+			@extend %width-height-a;
+			text-align: center;
+			line-height: 40px;
+			border-bottom: 1px solid rgba(0,0,0,.1);
+			font-size: 1.1rem;
+		}
+		.info-list {
+			@extend %width-height-a;
+			li {
+				width: 30%;
+				@extend %height-a;
+				margin: auto;
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+.page-oil, .page-oil .info-card .city-title, .page-oil .info-card .info-list {
+  width: 100%;
+}
+
+.page-oil, .page-oil .info-card .city-title, .page-oil .info-card .info-list, .page-oil .info-card .info-list li {
+  height: auto;
+}
+
+.page-oil .search-container {
+  text-align: center;
+  margin-top: 15px;
+}
+.page-oil .search-container > .ant-input-affix-wrapper {
+  width: 50%;
+}
+.page-oil .search-container .ant-btn-primary {
+  background: #ff1c1c;
+  border-color: #ff1c1c;
+}
+.page-oil .search-container .ant-input:focus {
+  border-color: #ff1c1c;
+  -moz-box-shadow: 0 0 5px #ff2121;
+  -webkit-box-shadow: 0 0 5px #ff2121;
+  box-shadow: 0 0 5px #ff2121;
+}
+.page-oil .search-container .ant-input:hover {
+  border-color: #ff1c1c;
+  -moz-box-shadow: 0 0 5px #ff2121;
+  -webkit-box-shadow: 0 0 5px #ff2121;
+  box-shadow: 0 0 5px #ff2121;
+}
+.page-oil .search-container .ant-input-affix-wrapper:hover .search-container .ant-input:not(.ant-input-disabled) {
+  border-color: #ff1c1c;
+}
+.page-oil .hidden {
+  display: none;
+}
+.page-oil .info-card {
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 15px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.page-oil .info-card .city-title {
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+}
+.page-oil .info-card .info-list li {
+  width: 30%;
+  margin: auto;
+}

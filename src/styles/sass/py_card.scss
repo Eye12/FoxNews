@@ -1,0 +1,27 @@
+@import 'public_placeholder','compass/css3/flexbox','compass/typography/lists/bullets';
+
+.py-card {
+	@include display-flex;
+	@include justify-content(space-between);
+	@extend %width-height-a;
+	overflow: hidden;
+	.left-img {
+		width: 43.5%;
+		@extend %height-a;
+		img {
+			@extend %width-height-a;
+		}
+	}
+	.right-list {
+		width: 55%;
+		height: auto;
+		@include no-bullets;
+		margin: 0;
+		padding: 0;
+		line-height: 24px;
+		font-size: .9rem;
+		a {
+			color: #4a4a4a;
+		}
+	}
+}

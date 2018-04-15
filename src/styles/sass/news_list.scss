@@ -1,0 +1,21 @@
+@import 'public_variables';
+.news-list {
+	border: 1px solid rgba(0, 0, 0, .1);
+	.header {
+		font-size: 1.2rem;
+		line-height: 48px;
+		padding-left: 20px;
+		border-bottom: 1px solid rgba(0, 0, 0,.1);
+		color: $focus-color;
+	}
+	.list {
+		font-size: 1rem;
+		li {
+			line-height: 28px;
+			cursor: pointer;
+			a {
+				color: #434343;
+			}
+		}
+	}
+}

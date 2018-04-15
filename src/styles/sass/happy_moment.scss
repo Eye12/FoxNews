@@ -1,0 +1,15 @@
+@import 'public_placeholder','compass/css3/box-shadow';
+.card-item {
+	@extend %width-height-a;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 8px;
+	@include box-shadow(0 2px 4px rgba(0,0,0,.2));
+	margin-bottom: 10px;
+	.title {
+		line-height: 40px;
+		text-indent: 30px;
+	}
+	.content {
+		text-align: justify;
+	}
+}

@@ -1,0 +1,48 @@
+@import 'public_placeholder',
+'public_variables';
+
+.mb-details {
+    #title {
+        text-align: center;
+    }
+    .title {
+        font-size: 1.1rem;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+
+    figure {
+        margin-top: 10px;
+        img {
+            width: 70%;
+            margin-left: 15%;
+        }
+    }
+    p.section.txt:first-of-type {
+        text-align: center;
+    }
+    p.section.txt {
+        text-indent: 15px;
+        text-align: justify;
+        padding: 0 8px;
+    } // 2号线样式
+    .header {
+        text-align: center;
+        .title {
+            font-size: 1.1rem;
+        }
+    }
+
+    .content {
+        @extend %width-height-a;
+        img {
+            width: 70%;
+            margin-left: 15%;
+        }
+        p {
+            padding: 10px;
+            text-indent: 15px;
+            text-align: justify;
+        }
+    }
+}

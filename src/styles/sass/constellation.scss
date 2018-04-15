@@ -1,0 +1,32 @@
+@import 'public_placeholder','compass/css3/flexbox';
+
+.constellation {
+	@extend %width-height-a;
+	.content .title {
+		@extend %width;
+		line-height: 54px;
+		text-align: center;
+		img {
+			width: 4%;
+			@extend %height-a;
+		}
+		span {
+			font-size: 1.2rem;
+			padding-left: 10px;
+		}
+		.sm {
+			font-size: .9rem;
+			position: relative;
+			top: 3px;
+			color: #949494;
+		}
+	}
+
+	.content .card-group {
+		margin-top: 10px;
+		@include display-flex;
+		@include justify-content(space-between);
+		border-top: 1px dotted rgba(0,0,0,.1);
+		border-bottom: 1px dotted rgba(0,0,0,.1);
+	}
+}

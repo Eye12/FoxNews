@@ -1,0 +1,40 @@
+@import 'public_placeholder','public_variables', 'compass/css3/flexbox','compass/css3/border-radius';
+
+.single-card {
+	width: 33%;
+	height: 430px;
+	
+	@include display-flex;
+	@include justify-content(space-between);
+	overflow: hidden;
+	padding: 0 10px;
+	.left {
+		width: 28%;
+		height: 100%;
+		@include display-flex;
+		@include align-items(center);
+		h5 {
+			width: 64%;
+			line-height: 32px;
+			position: relative;
+			top: 2px;
+			background: $focus-color;
+			margin:auto;
+			font-size: 1rem;
+			text-align: center;
+			@include border-radius(5px);
+			color: #fff;
+		}
+	}
+	.right {
+		width: 67%;
+		height: 100%;
+		.healthy {
+			margin-top: 8px;
+		}
+		dt {
+			font-size: 1rem;
+			font-weight: bold;
+		}
+	}
+}

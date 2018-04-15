@@ -1,0 +1,74 @@
+@import 'public_placeholder', 'public_variables','compass/css3/inline-block', 'compass/utilities/general/float';
+span {
+	@include inline-block;
+}
+#pc-header{
+	@extend %width-height-a;
+	@at-root #header-logo {
+		width: 22%;
+		@extend %height-a;
+		margin-top: 3px;
+	}
+	@at-root #site-titel {
+		font-size: 1.15rem;
+		line-height: 50px;
+		font-style: italic;
+	}
+	@at-root #register-login {
+		line-height: 40px;
+		@include inline-block;
+		@include float(right);
+		font-size: 1rem;
+		&:hover {
+			color: $focus-color;
+			cursor: pointer;
+		}
+	}
+	@at-root .logout,
+			.login {
+		position: relative;
+		top: 2px;
+	}
+	@at-root .logout {
+		margin-left: 8px;
+	}
+	@at-root .login {
+		position: relative;
+		left: -8px;
+	}
+	@at-root .log-text{
+		color: #b4b4b4;
+		font-size: 0.9rem;
+	}
+
+	.ant-menu-item:hover > .anticon {
+	color: red;
+	}
+	a:hover {
+		color: red;
+	}
+
+}
+
+
+// antd原文件样式修改
+.ant-menu-horizontal {
+	line-height: 45px;
+}
+
+.ant-menu-item {
+	padding: 0 25.5px;
+}
+.ant-menu-item .anticon {
+	margin-right: 6px;
+}
+
+.ant-menu-horizontal > .ant-menu-item {
+	font-size: .95rem;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover,
+.ant-menu-horizontal > .ant-menu-item-selected {
+	border-bottom: 1.5px solid $focus-color;
+	color: $focus-color!important;
+}

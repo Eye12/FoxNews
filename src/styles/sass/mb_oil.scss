@@ -1,0 +1,57 @@
+@import 'public_variables',
+'public_placeholder',
+'compass/css3/border-radius',
+'compass/typography/lists/bullets',
+'compass/css3/box-shadow';
+
+.mb-oil {
+    padding-top: 8px;
+    @extend %width-height-a;
+    .ipt {
+        @extend %width-height-a;
+        text-align: center;
+        .ant-btn-primary,
+        .ant-btn-primary:hover {
+            background-color: $focus-color;
+            border-color: $focus-color;
+        }
+        .ant-input:focus {
+            @include box-shadow(0 0 8px rgba(#ff2860, .2));
+        }
+        .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+            border-color: $focus-color;
+        }
+    }
+    .ant-input-affix-wrapper {
+        width: 70%!important;
+    }
+
+    .city-oil {
+        border: 1px solid rgba(0, 0, 0, .1);
+        width: 70%;
+        margin: auto;
+        margin-top: 8px;
+        @include border-radius(5px);
+        .title {
+            @extend %width-height-a;
+            text-align: center;
+            line-height: 36px;
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+        }
+        .oil-list {
+            @include no-bullets;
+            margin: 0;
+            padding: 0;
+
+            li {
+                line-height: 24px;
+                padding-left: 40%;
+            }
+        }
+    }
+
+
+    .hidden {
+        display: none;
+    }
+}

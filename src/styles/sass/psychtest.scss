@@ -1,0 +1,10 @@
+@import 'public_placeholder';
+.psychtest {
+	@extend %width-height-a;
+	.part-one {
+		.title {
+			@extend %width-height-a;
+			line-height: 38px;
+		}
+	}
+}

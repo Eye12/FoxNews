@@ -1,0 +1,9 @@
+.mb-content .ant-tabs-ink-bar {
+  background-color: #ff1c1c;
+}
+.mb-content .ant-tabs-nav .ant-tabs-tab-active {
+  color: #ff1c1c;
+}
+.mb-content .ant-tabs-bar {
+  margin: 0;
+}

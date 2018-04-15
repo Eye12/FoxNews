@@ -1,0 +1,94 @@
+@import 'public_variables',
+'public_placeholder',
+'compass/css3/flexbox',
+'compass/css3/inline-block';
+.modal-container {
+    @extend %width-height;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    @include display-flex;
+    @include justify-content(center);
+    @include align-items(center);
+    z-index: 101;
+    .modal-content {
+        @extend %height-a;
+        position: relative;
+        .anticon-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            &:hover {
+                color: #000;
+            }
+        }
+    } // PC端
+    @media only screen and(min-device-width: 1024px) {
+        .modal-content {
+            width: 32%;
+            background: #fff;
+            padding: 0 10px;
+        }
+    } // ipad
+    @media only screen and(min-device-width: 767px) and(max-device-width: 1024px) {
+        .modal-content {
+            width: 45%;
+            background: #fff;
+            padding: 0 20px;
+        }
+    } // 手机端
+    @media only screen and(max-device-width: 767px) {
+        .modal-content {
+            width: 92%;
+            background: #fff;
+            padding: 0 10px;
+        }
+    }
+}
+
+.modal-hidden {
+    display: none;
+}
+
+// 修改原antd表单样式
+.modal-container {
+    .login {
+        margin-right: 0;
+        left: 0;
+    }
+    .ant-form-item {
+        text-align: center;
+    }
+    .ant-form-item-control {
+        line-height: 0;
+    }
+    .anticon-user,
+    .anticon-lock,
+    .anticon {
+        color: rgba(0, 0, 0, .25);
+    }
+    .ant-input-affix-wrapper .ant-input:not(:first-child),
+    .ant-input-group>.ant-input:last-child {
+        font-size: 13px;
+    }
+}
+
+.regiterForm {
+    .ant-form-item {
+        @include display-flex;
+        @include justify-content(space-between);
+    }
+    .ant-form-item-label {
+        width: 20%;
+        @include inline-block;
+    }
+    .ant-form-item-control-wrapper {
+        width: 54%;
+        @include inline-block;
+    }
+    .ant-form-item-children {
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+@import 'public_variables', 'public_placeholder', 'compass/css3/flexbox';
+#mb-header {
+	@extend %width-height-a;
+	@include display-flex;
+	@include justify-content(space-between);
+	padding: 8px 10px;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 40px;
+	#left {
+		img {
+			width: 15%;
+			@extend %height-a;
+		}
+		#text {
+			font-size: 1.15rem;
+			font-style: italic;
+		}
+	}
+	#right {
+		.icn-out,
+		.icn-in {
+			position: relative;
+			top: 2px;
+		}
+		.icn-in {
+			right: 8px;
+		}
+		#logout-txt {
+			margin-right: 8px;
+		}
+	}
+}

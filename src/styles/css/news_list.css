@@ -1,0 +1,20 @@
+.news-list {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.news-list .header {
+  font-size: 1.2rem;
+  line-height: 48px;
+  padding-left: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #ff1c1c;
+}
+.news-list .list {
+  font-size: 1rem;
+}
+.news-list .list li {
+  line-height: 28px;
+  cursor: pointer;
+}
+.news-list .list li a {
+  color: #434343;
+}

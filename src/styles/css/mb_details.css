@@ -1,0 +1,46 @@
+.mb-details .content {
+  width: 100%;
+}
+
+.mb-details .content {
+  height: auto;
+}
+
+.mb-details #title {
+  text-align: center;
+}
+.mb-details .title {
+  font-size: 1.1rem;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.mb-details figure {
+  margin-top: 10px;
+}
+.mb-details figure img {
+  width: 70%;
+  margin-left: 15%;
+}
+.mb-details p.section.txt:first-of-type {
+  text-align: center;
+}
+.mb-details p.section.txt {
+  text-indent: 15px;
+  text-align: justify;
+  padding: 0 8px;
+}
+.mb-details .header {
+  text-align: center;
+}
+.mb-details .header .title {
+  font-size: 1.1rem;
+}
+.mb-details .content img {
+  width: 70%;
+  margin-left: 15%;
+}
+.mb-details .content p {
+  padding: 10px;
+  text-indent: 15px;
+  text-align: justify;
+}

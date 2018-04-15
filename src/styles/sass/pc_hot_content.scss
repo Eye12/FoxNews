@@ -1,0 +1,36 @@
+@import 'public_placeholder','compass/utilities/general/float','compass/utilities/general/clearfix'; 
+.pc-hot-content {
+    margin-top: 10px; 
+    // carousel
+    .ant-carousel .slick-slide {
+        @extend %width;
+        text-align: center;
+        height: 260px;
+        line-height: 260px;
+        background: #364d79;
+        overflow: hidden;
+    }
+	.carousel-img {
+		@extend %width-height-a;
+	}
+    .ant-carousel .slick-slide img {
+        @extend %width;
+    }
+    
+    .news-list {
+        width: 98%;
+        @include float(right);
+        &::after {
+            @include legacy-pie-clearfix;
+        }
+    }
+
+    .imgs-block {
+        margin-top: 10px;
+    }
+
+}
+
+.clear {
+    @include legacy-pie-clearfix;
+}

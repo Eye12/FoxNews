@@ -1,0 +1,13 @@
+@import 'public_variables', 'public_placeholder';
+.mb-content {
+	// 修改原antd样式
+	.ant-tabs-ink-bar {
+		background-color: $focus-color;
+	}
+	.ant-tabs-nav .ant-tabs-tab-active {
+		color: $focus-color;
+	}
+	.ant-tabs-bar {
+		margin: 0;
+	}
+}

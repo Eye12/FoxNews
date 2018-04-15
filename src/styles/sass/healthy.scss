@@ -1,0 +1,73 @@
+@import 'compass/css3/box-sizing','public_placeholder',
+'public_variables','compass/utilities/general/float',
+'compass/typography/lists/bullets','compass/utilities/general/clearfix';
+
+.healthy {
+    .content {
+        margin-top: 10px;
+        .ant-carousel .slick-slide {
+            text-align: center;
+            height: 380px;
+            line-height: 380px;
+            background: #364d79;
+            overflow: hidden;
+        }
+        .group .imgs {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        } 
+        // 左右布局
+       .header {
+                line-height: 46px;
+                color: $focus-color;
+                font-size: 1.3rem;
+                letter-spacing: 1px;
+                border-bottom: 1px solid rgba(0,0,0,.1);
+            }
+        .left,
+        .right {
+            width: 99.5%;
+            @extend %height-a;
+            border: 1px solid rgba(0, 0, 0, .1);
+            @include box-sizing(border-box);
+            margin-top: 8px;
+            padding: 0 8px;
+        }
+       
+        .right {
+            @include float(right);
+            .right-list {
+                @include no-bullets;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 8px;
+                a {
+                    color: #656565;
+                }
+                li {
+                    font-size: .9rem;
+                    line-height: 28px;
+                    letter-spacing: 1.2px;
+                }
+            }
+        }
+
+        .item-info {
+            @extend %width-height-a;
+            margin-top: 8px;
+            padding: 0 8px 8px;
+            border: 1px solid rgba(0,0,0,.1);
+            p {
+                font-size: .9rem;
+                text-indent: 20px;
+                line-height: 24px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.clear {
+    @include legacy-pie-clearfix;
+}
